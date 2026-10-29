@@ -1,51 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Trust1 Oral Care</title>
 
-<link rel="stylesheet" href="style.css">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<link
+rel="stylesheet"
+href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+/>
+
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<!-- LOADER -->
+<nav class="navbar">
 
-<div id="loader">
-
-    <div class="loader-brush">
-        🪥
-    </div>
-
-    <h1>TRUST1</h1>
-
+<div class="logo">
+TRUST1
 </div>
 
-<!-- NAVIGATION -->
+<ul>
 
-<nav>
+<li><a href="#about">About</a></li>
+<li><a href="#toothbrushes">Toothbrushes</a></li>
+<li><a href="#mouthwash">Mouthwash</a></li>
 
-    <div class="logo">
-        TRUST1
-    </div>
-
-    <ul>
-
-        <li><a href="#about">About</a></li>
-        <li><a href="#toothbrushes">Toothbrushes</a></li>
-        <li><a href="#mouthwash">Mouthwash</a></li>
-
-    </ul>
+</ul>
 
 </nav>
 
@@ -53,61 +47,83 @@
 
 <section class="hero">
 
-    <div class="hero-text">
+<div class="hero-content" data-aos="fade-right">
 
-        <h1>Stronger Smiles.</h1>
+<h1>
+Stronger Smiles.
+<span>Lasting Freshness.</span>
+</h1>
 
-        <h2>Lasting Freshness.</h2>
+<p>
+Premium oral care products designed to keep your smile cleaner, fresher and healthier every day.
+</p>
 
-        <p>
-            Premium oral care products designed to keep your smile cleaner, fresher and healthier every day.
-        </p>
+<a href="#toothbrushes" class="btn">
+Explore Products
+</a>
 
-        <button>
-            Explore Products
-        </button>
+</div>
 
-    </div>
+<div class="hero-image" data-aos="fade-left">
 
-    <div class="hero-image">
+<img
+src="https://placehold.co/700x700/eafcff/00b4d8?text=Trust1+Hero"
+alt="Hero"
+>
 
-        <img src="https://placehold.co/600x600" alt="placeholder">
-
-    </div>
+</div>
 
 </section>
 
 <!-- ABOUT -->
 
-<section id="about">
+<section id="about" class="about">
 
-    <h2>About Trust1</h2>
+<div data-aos="fade-up">
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    </p>
+<h2>About Trust1</h2>
+
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corporis.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corporis.
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+</p>
+
+</div>
 
 </section>
 
-<!-- WHY TRUST1 -->
+<!-- WHY -->
 
 <section class="why">
 
-    <h2>Why Trust1?</h2>
+<h2 data-aos="fade-up">
+Why Choose Trust1?
+</h2>
 
-    <div class="cards">
+<div class="cards">
 
-        <div class="card">🦷 Healthy Smile</div>
+<div class="card" data-aos="zoom-in">
+🦷
+<h3>Healthy Smiles</h3>
+</div>
 
-        <div class="card">✨ Fresh Breath</div>
+<div class="card" data-aos="zoom-in">
+✨
+<h3>Fresh Breath</h3>
+</div>
 
-        <div class="card">🛡 Protection</div>
+<div class="card" data-aos="zoom-in">
+🛡️
+<h3>Daily Protection</h3>
+</div>
 
-        <div class="card">🌿 Quality Ingredients</div>
+<div class="card" data-aos="zoom-in">
+🌿
+<h3>Quality Ingredients</h3>
+</div>
 
-    </div>
+</div>
 
 </section>
 
@@ -115,36 +131,44 @@
 
 <section id="toothbrushes">
 
-    <h2>Toothbrush Collection</h2>
+<h2 data-aos="fade-up">
+Toothbrush Collection
+</h2>
 
-    <div class="products">
+<div class="swiper toothbrushSwiper">
 
-        <div class="product">
-            <img src="https://placehold.co/350x350">
-            <h3>Soft 1ct</h3>
-        </div>
+<div class="swiper-wrapper">
 
-        <div class="product">
-            <img src="https://placehold.co/350x350">
-            <h3>Medium 1ct</h3>
-        </div>
+<div class="swiper-slide">
+<img src="https://placehold.co/500x500" alt="">
+<h3>Trust1 Toothbrush Soft 1ct</h3>
+</div>
 
-        <div class="product">
-            <img src="https://placehold.co/350x350">
-            <h3>Hard 1ct</h3>
-        </div>
+<div class="swiper-slide">
+<img src="https://placehold.co/500x500" alt="">
+<h3>Trust1 Toothbrush Medium 1ct</h3>
+</div>
 
-        <div class="product">
-            <img src="https://placehold.co/350x350">
-            <h3>Medium 4ct</h3>
-        </div>
+<div class="swiper-slide">
+<img src="https://placehold.co/500x500" alt="">
+<h3>Trust1 Toothbrush Hard 1ct</h3>
+</div>
 
-        <div class="product">
-            <img src="https://placehold.co/350x350">
-            <h3>Hard 4ct</h3>
-        </div>
+<div class="swiper-slide">
+<img src="https://placehold.co/500x500" alt="">
+<h3>Trust1 Toothbrush Medium 4ct</h3>
+</div>
 
-    </div>
+<div class="swiper-slide">
+<img src="https://placehold.co/500x500" alt="">
+<h3>Trust1 Toothbrush Hard 4ct</h3>
+</div>
+
+</div>
+
+<div class="swiper-pagination"></div>
+
+</div>
 
 </section>
 
@@ -152,9 +176,15 @@
 
 <section class="anatomy">
 
-    <h2>Designed For Better Cleaning</h2>
+<h2 data-aos="fade-up">
+Designed For Better Cleaning
+</h2>
 
-    <img src="https://placehold.co/1200x250">
+<img
+src="https://placehold.co/1200x300"
+alt=""
+data-aos="zoom-in"
+>
 
 </section>
 
@@ -162,21 +192,39 @@
 
 <section id="mouthwash">
 
-    <h2>Mouthwash Collection</h2>
+<h2 data-aos="fade-up">
+Mouthwash Collection
+</h2>
 
-    <div class="products">
+<div class="mouthwash-grid">
 
-        <div class="product">
-            <img src="https://placehold.co/350x450">
-            <h3>Original Mouthwash 500ml</h3>
-        </div>
+<div class="wash" data-aos="fade-right">
 
-        <div class="product">
-            <img src="https://placehold.co/350x450">
-            <h3>Mint Burst Mouthwash 500ml</h3>
-        </div>
+<img
+src="https://placehold.co/400x550"
+alt=""
+>
 
-    </div>
+<h3>
+Trust1 Original Mouthwash 500ml
+</h3>
+
+</div>
+
+<div class="wash" data-aos="fade-left">
+
+<img
+src="https://placehold.co/400x550"
+alt=""
+>
+
+<h3>
+Trust1 Mint Burst Mouthwash 500ml
+</h3>
+
+</div>
+
+</div>
 
 </section>
 
@@ -184,32 +232,18 @@
 
 <section class="benefits">
 
-    <h2>Benefits & Ingredients</h2>
+<h2 data-aos="fade-up">
+Benefits & Ingredients
+</h2>
 
-    <div class="cards">
+<div class="cards">
 
-        <div class="card">Fluoride</div>
-        <div class="card">Mint</div>
-        <div class="card">Fresh Protection</div>
-        <div class="card">Daily Care</div>
+<div class="card">Fluoride</div>
+<div class="card">Mint</div>
+<div class="card">Fresh Protection</div>
+<div class="card">Daily Care</div>
 
-    </div>
-
-</section>
-
-<!-- TESTIMONIALS -->
-
-<section class="testimonials">
-
-    <h2>Customer Reviews</h2>
-
-    <p>
-        "Lorem ipsum dolor sit amet consectetur."
-    </p>
-
-    <p>
-        "Lorem ipsum dolor sit amet consectetur."
-    </p>
+</div>
 
 </section>
 
@@ -217,21 +251,25 @@
 
 <section class="cta">
 
-    <h2>Your Smile. Your Confidence. Your Trust.</h2>
+<h2>
+Your Smile. Your Confidence. Your Trust.
+</h2>
 
-    <button>
-        Contact Us
-    </button>
+<a href="#" class="btn">
+Contact Us
+</a>
 
 </section>
 
-<!-- FOOTER -->
-
 <footer>
 
-    © 2026 Trust1 Oral Care
+© 2026 Trust1 Oral Care
 
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
 <script src="script.js"></script>
 
