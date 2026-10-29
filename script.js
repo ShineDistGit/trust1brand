@@ -1,21 +1,17 @@
 AOS.init({
-duration:1000,
-once:true
+    duration: 1000,
+    once: true
 });
 
-new Swiper(".toothbrushSwiper",{
+new Swiper(".toothbrushSwiper", {
+    loop: true,
 
-slidesPerView:1,
+    autoplay: {
+        delay: 3500
+    },
 
-loop:true,
-
-autoplay:{
-delay:3000
-},
-
-pagination:{
-el:".swiper-pagination",
-clickable:true
-}
-
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+    }
 });
