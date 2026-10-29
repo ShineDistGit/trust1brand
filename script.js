@@ -1,17 +1,21 @@
-window.addEventListener("load",()=>{
+AOS.init({
+duration:1000,
+once:true
+});
 
-setTimeout(()=>{
+new Swiper(".toothbrushSwiper",{
 
-document.getElementById("loader").style.opacity="0";
+slidesPerView:1,
 
-document.getElementById("loader").style.transition="1s";
+loop:true,
 
-setTimeout(()=>{
+autoplay:{
+delay:3000
+},
 
-document.getElementById("loader").style.display="none";
-
-},1000);
-
-},2000);
+pagination:{
+el:".swiper-pagination",
+clickable:true
+}
 
 });
