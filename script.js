@@ -2,11 +2,9 @@ window.addEventListener("load", () => {
 
     setTimeout(() => {
 
-        const loader =
-        document.getElementById("loader");
+        const loader = document.getElementById("loader");
 
-        loader.style.transition =
-        "opacity 0.8s ease";
+        loader.style.transition = "opacity .8s ease";
 
         loader.style.opacity = "0";
 
@@ -16,9 +14,10 @@ window.addEventListener("load", () => {
 
         }, 800);
 
-    }, 3000);
+    }, 3200);
 
 });
+
 
 AOS.init({
     duration:1000,
