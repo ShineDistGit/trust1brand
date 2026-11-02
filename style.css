@@ -552,3 +552,23 @@ gap:20px;
         opacity:0;
     }
 }
+.hero-image img{
+
+    animation: floatHero 4s ease-in-out infinite;
+
+}
+@keyframes floatHero {
+
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-15px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+
+}
