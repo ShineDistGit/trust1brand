@@ -263,59 +263,61 @@ WHY TRUST1
 .why-trust1{
 
     background:#f8f9fb;
-
-    text-align:center;
 }
 
-.why-trust1 > h2{
+.trust-list{
 
-    font-size:54px;
+    max-width:1100px;
 
-    margin-bottom:10px;
+    margin:auto;
 }
 
-.why-trust1 > h3{
+.trust-row{
 
-    color:#777;
+    display:flex;
 
-    margin-bottom:60px;
+    gap:40px;
+
+    align-items:flex-start;
+
+    padding:40px 0;
+
+    border-bottom:
+    1px solid rgba(0,0,0,.08);
 }
 
-.trust-grid{
+.trust-number{
 
-    display:grid;
+    font-size:60px;
 
-    grid-template-columns:
-    repeat(auto-fit,minmax(240px,1fr));
-
-    gap:25px;
-}
-
-.trust-card{
-
-    background:white;
-
-    border-radius:24px;
-
-    padding:35px;
-
-    box-shadow:
-    0 8px 25px rgba(0,0,0,.05);
-
-    transition:.35s;
-}
-
-.trust-card:hover{
-
-    transform:
-    translateY(-10px);
-}
-
-.trust-card h4{
+    font-weight:800;
 
     color:#d91b79;
 
-    margin-bottom:12px;
+    min-width:120px;
+}
+
+.trust-content h3{
+
+    font-size:30px;
+
+    margin-bottom:15px;
+}
+
+.trust-content p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    max-width:700px;
+}
+
+.trust-row:hover .trust-number{
+
+    transform:translateX(10px);
+
+    transition:.3s;
 }
 
 /* ==========================
