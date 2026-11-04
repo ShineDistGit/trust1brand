@@ -401,9 +401,9 @@ MOUTHWASH
 
 .mouthwash{
 
-    background:#111111;
+    background:#f8f9fb;
 
-    color:white;
+    color:#111111;
 }
 
 .mouthwash h2{
@@ -426,7 +426,7 @@ MOUTHWASH
 
 .mouthwash-card{
 
-    background:#1e1e1e;
+    background:white;
 
     border-radius:24px;
 
@@ -440,7 +440,8 @@ MOUTHWASH
     transform:translateY(-12px);
 
     box-shadow:
-    0 0 40px rgba(217,27,121,.25);
+    0 20px 40px rgba(0,0,0,.08);
+
 }
 
 .mouthwash-card h3{
