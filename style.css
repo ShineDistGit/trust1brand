@@ -453,33 +453,42 @@ MOUTHWASH
 ABOUT
 ========================== */
 
-.about-grid{
+.story-block{
 
-    display:grid;
+    display:flex;
 
-    grid-template-columns:
-    repeat(auto-fit,minmax(320px,1fr));
+    gap:80px;
 
-    gap:30px;
+    align-items:center;
+
+    margin-bottom:80px;
 }
 
-.about-grid div{
+.story-block.reverse{
 
-    background:white;
-
-    border-radius:24px;
-
-    padding:35px;
-
-    box-shadow:
-    0 8px 25px rgba(0,0,0,.05);
+    flex-direction:row-reverse;
 }
 
-.about-grid h3{
+.story-label{
 
-    margin-bottom:15px;
+    font-size:32px;
+
+    font-weight:800;
 
     color:#d91b79;
+
+    flex:1;
+}
+
+.story-content{
+
+    flex:2;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#555;
 }
 
 /* ==========================
