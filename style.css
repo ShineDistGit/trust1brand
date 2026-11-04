@@ -500,56 +500,57 @@ EDUCATION
     background:#f8f9fb;
 }
 
-.education-grid{
+.education-list{
 
-    display:grid;
+    max-width:1100px;
 
-    grid-template-columns:
-    repeat(auto-fit,minmax(260px,1fr));
-
-    gap:25px;
-
-    margin-top:40px;
+    margin:auto;
 }
 
-.education-card{
+.education-article{
 
-    background:white;
+    padding:50px 0;
 
-    border-radius:24px;
-
-    padding:30px;
-
-    min-height:170px;
-
-    box-shadow:
-    0 8px 25px rgba(0,0,0,.05);
+    border-bottom:
+    1px solid rgba(0,0,0,.08);
 
     transition:.3s;
 }
 
-.education-card:hover{
+.education-article span{
 
-    transform:
-    translateY(-10px);
+    color:#d91b79;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
 }
 
-/* ==========================
-WHERE TO BUY
-========================== */
+.education-article h3{
 
-.where-to-buy{
+    font-size:32px;
 
-    text-align:center;
+    margin-top:12px;
+
+    margin-bottom:18px;
 }
 
-.where-to-buy p{
+.education-article p{
 
-    max-width:800px;
+    max-width:700px;
 
-    margin:auto;
+    line-height:1.8;
 
-    line-height:1.9;
+    color:#666;
+}
+
+.education-article:hover{
+
+    transform:translateX(10px);
 }
 
 /* ==========================
