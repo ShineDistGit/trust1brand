@@ -705,6 +705,18 @@ MOBILE
     font-size:40px;
 }
 
+/* ADD THIS */
+
+.story-block,
+.story-block.reverse{
+
+    flex-direction:column;
+
+    text-align:center;
+
+    gap:20px;
+}
+
 }
 /* ===================================================
    TRUST1 LOADER
