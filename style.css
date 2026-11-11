@@ -434,13 +434,12 @@ ABOUT
 
     display:flex;
 
-    gap:80px;
+    gap:40px;
 
-    align-items:center;
+    align-items:flex-start;
 
-    margin-bottom:80px;
+    margin-bottom:60px;
 }
-
 .story-block.reverse{
 
     flex-direction:row-reverse;
@@ -448,24 +447,26 @@ ABOUT
 
 .story-label{
 
-    font-size:32px;
+    font-size:28px;
 
     font-weight:800;
 
     color:#d91b79;
 
-    flex:1;
+    flex:0 0 280px;
 }
 
 .story-content{
 
-    flex:2;
+    flex:1;
 
     font-size:18px;
 
     line-height:1.9;
 
     color:#555;
+
+    max-width:700px;
 }
 
 /* ==========================
