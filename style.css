@@ -222,6 +222,29 @@ HERO
 
     color:#555;
 }
+.hero-highlights{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-top:25px;
+}
+
+.hero-highlights span{
+
+    background:#f8f9fb;
+
+    padding:12px 18px;
+
+    border-radius:999px;
+
+    font-weight:600;
+
+    color:#111;
+}
 
 .eyebrow{
 
