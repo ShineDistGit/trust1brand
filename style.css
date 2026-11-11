@@ -28,8 +28,9 @@ GLOBAL
 ========================== */
 
 section{
-    padding:120px 8%;
+    padding:140px 10%;
 }
+
 
 h1,h2,h3,h4{
     font-weight:700;
@@ -42,9 +43,11 @@ h1,h2,h3,h4{
 
 .section-heading h2{
 
-    font-size:52px;
+    font-size:clamp(42px,4vw,70px);
 
     margin-bottom:15px;
+
+    line-height:1.1;
 }
 
 .section-heading p{
@@ -167,6 +170,10 @@ HERO
     justify-content:space-between;
 
     gap:60px;
+
+    max-width:1600px;
+
+    margin:auto;
 }
 
 .hero-content{
@@ -187,9 +194,9 @@ HERO
 
 .hero h1{
 
-    font-size:88px;
+    font-size:clamp(70px,7vw,120px);
 
-    line-height:1;
+    line-height:0.95;
 }
 
 .hero h1 span{
@@ -846,10 +853,6 @@ MOBILE
     font-size:54px;
 }
 
-.hero-products{
-
-    justify-content:center;
-}
 
 .design-grid{
 
