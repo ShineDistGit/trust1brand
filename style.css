@@ -598,6 +598,29 @@ EDUCATION
 
     line-height:2;
 }
+.did-you-know{
+
+    margin-top:25px;
+
+    padding-top:20px;
+
+    border-top:
+    1px solid rgba(0,0,0,.08);
+}
+
+.did-you-know h4{
+
+    color:#d91b79;
+
+    margin-bottom:12px;
+}
+
+.did-you-know p{
+
+    line-height:1.8;
+
+    color:#666;
+}
 
 .education-toggle{
 
