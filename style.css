@@ -272,6 +272,8 @@ WHY TRUST1
     color:#d91b79;
 
     min-width:120px;
+
+    transition:.3s;
 }
 
 .trust-content h3{
@@ -279,6 +281,14 @@ WHY TRUST1
     font-size:30px;
 
     margin-bottom:15px;
+
+    transition:.3s;
+}
+.trust-row:hover h3{
+
+    color:#d91b79;
+
+    transform:translateX(10px);
 }
 
 .trust-content p{
@@ -292,9 +302,9 @@ WHY TRUST1
 
 .trust-row:hover .trust-number{
 
-    transform:translateX(10px);
-
-    transition:.3s;
+    transform:
+    translateX(10px)
+    scale(1.12);
 }
 
 /* ==========================
