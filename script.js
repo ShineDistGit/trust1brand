@@ -20,8 +20,9 @@ window.addEventListener("load", () => {
 
 
 AOS.init({
-    duration:1000,
-    once:true
+    duration:1200,
+    once:true,
+    easing:"ease-out-cubic"
 });
 
 new Swiper(".toothbrushSwiper",{
