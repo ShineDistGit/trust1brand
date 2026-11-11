@@ -496,20 +496,38 @@ EDUCATION
 ========================== */
 
 .education{
-
     background:#f8f9fb;
 }
 
-.education-grid{
+.education-layout{
 
     display:grid;
 
-    grid-template-columns:
-    repeat(auto-fit,minmax(320px,1fr));
+    grid-template-columns:1.3fr 1fr;
 
     gap:30px;
+}
 
-    margin-top:50px;
+.featured-card{
+
+    background:white;
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+    transition:.3s;
+}
+
+.education-side{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
 }
 
 .education-card{
@@ -520,30 +538,25 @@ EDUCATION
 
     overflow:hidden;
 
-    box-shadow:
-    0 10px 25px rgba(0,0,0,.05);
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
 
-    transition:.35s;
+    transition:.3s;
 }
 
 .education-card:hover{
 
-    transform:
-    translateY(-10px);
-
-    box-shadow:
-    0 20px 40px rgba(0,0,0,.10);
+    transform:translateY(-8px);
 }
 
 .education-card img{
 
     width:100%;
 
-    height:240px;
+    height:220px;
 
     object-fit:cover;
 
-    transition:.4s;
+    transition:.5s;
 }
 
 .education-card:hover img{
@@ -553,37 +566,46 @@ EDUCATION
 
 .education-content{
 
-    padding:25px;
+    padding:24px;
 }
 
-.education-content h3{
-
-    font-size:24px;
+.education-content h3,
+.education-content h4{
 
     margin-bottom:15px;
 }
 
-.education-content p{
+.education-toggle{
 
-    color:#666;
+    border:none;
 
-    line-height:1.7;
-
-    margin-bottom:20px;
-}
-
-.education-content span{
+    background:none;
 
     color:#d91b79;
 
     font-weight:700;
 
-    transition:.3s;
+    cursor:pointer;
 }
 
-.education-card:hover span{
+.education-expand{
 
-    padding-left:8px;
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:.5s ease;
+
+    line-height:1.8;
+
+    color:#666;
+}
+
+.education-card.active .education-expand{
+
+    margin-top:20px;
+
+    max-height:400px;
 }
 
 /* ==========================
