@@ -232,29 +232,6 @@ HERO
     font-size:26px;
 }
 
-.hero-products{
-
-    display:flex;
-
-    flex-wrap:wrap;
-
-    gap:12px;
-
-    margin-top:25px;
-}
-
-.hero-products span{
-
-    padding:10px 16px;
-
-    border-radius:999px;
-
-    background:#f3f5f7;
-
-    font-size:14px;
-
-    font-weight:600;
-}
 
 /* ==========================
 WHY TRUST1
