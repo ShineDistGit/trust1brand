@@ -483,6 +483,8 @@ EDUCATION
     grid-template-columns:1.3fr 1fr;
 
     gap:30px;
+
+    align-items:start;
 }
 
 .featured-card{
