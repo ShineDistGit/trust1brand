@@ -553,6 +553,16 @@ EDUCATION
 
     margin-bottom:15px;
 }
+.featured-summary{
+
+    margin-top:15px;
+
+    line-height:1.9;
+
+    color:#666;
+
+    font-size:17px;
+}
 
 .education-toggle{
 
