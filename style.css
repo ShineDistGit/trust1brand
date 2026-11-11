@@ -575,6 +575,8 @@ EDUCATION
 
     transition:.5s ease;
 
+    opacity:0;
+
     line-height:1.8;
 
     color:#666;
@@ -584,7 +586,9 @@ EDUCATION
 
     margin-top:20px;
 
-    max-height:400px;
+    max-height:500px;
+
+    opacity:1;
 }
 
 /* ==========================
