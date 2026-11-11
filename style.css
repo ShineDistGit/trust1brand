@@ -182,9 +182,9 @@ HERO
 
 .hero-content{
 
-    flex:1.2;
+    flex:1;
 
-    min-width:600px;
+    max-width:750px;
 }
 
 .hero-image{
@@ -204,9 +204,11 @@ HERO
 
 .hero h1{
 
-    font-size:clamp(90px,9vw,180px);
+    font-size:clamp(70px,6vw,110px);
 
-    line-height:.9;
+    line-height:.95;
+
+    max-width:700px;
 }
 
 .hero h1 span{
