@@ -484,7 +484,7 @@ EDUCATION
 
     gap:30px;
 
-    align-items:start;
+    align-items:stretch;
 }
 
 .featured-card{
@@ -498,6 +498,12 @@ EDUCATION
     box-shadow:0 10px 30px rgba(0,0,0,.05);
 
     transition:.3s;
+
+    height:100%;
+
+    display:flex;
+
+    flex-direction:column;
 }
 
 .education-side{
@@ -546,6 +552,12 @@ EDUCATION
 .education-content{
 
     padding:24px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    height:100%;
 }
 
 .education-content h3,
