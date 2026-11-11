@@ -812,6 +812,18 @@ MOBILE
     gap:20px;
 }
 
+/* EDUCATION MOBILE */
+
+.education-layout{
+
+    grid-template-columns:1fr;
+}
+
+.education-side{
+
+    grid-template-columns:1fr;
+}
+
 }
 /* ===================================================
    TRUST1 LOADER
