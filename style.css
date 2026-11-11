@@ -563,6 +563,33 @@ EDUCATION
 
     font-size:17px;
 }
+.quick-tips{
+
+    margin-top:25px;
+
+    padding-top:20px;
+
+    border-top:
+    1px solid rgba(0,0,0,.08);
+}
+
+.quick-tips h4{
+
+    color:#d91b79;
+
+    margin-bottom:12px;
+}
+
+.quick-tips ul{
+
+    list-style:none;
+
+    padding-left:0;
+
+    color:#666;
+
+    line-height:2;
+}
 
 .education-toggle{
 
