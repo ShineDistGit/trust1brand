@@ -38,3 +38,17 @@ new Swiper(".toothbrushSwiper",{
     }
 
 });
+document
+.querySelectorAll(".education-toggle")
+.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        const card =
+        button.closest(".education-card");
+
+        card.classList.toggle("active");
+
+    });
+
+});
