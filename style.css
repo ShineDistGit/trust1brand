@@ -165,7 +165,7 @@ HERO
 
 .hero{
 
-    min-height:100vh;
+    min-height:90vh;
 
     display:flex;
 
@@ -173,7 +173,7 @@ HERO
 
     justify-content:space-between;
 
-    gap:60px;
+    gap:100px;
 
     max-width:1600px;
 
@@ -182,12 +182,18 @@ HERO
 
 .hero-content{
 
-    flex:1;
+    flex:1.2;
+
+    min-width:600px;
 }
 
 .hero-image{
 
     flex:1;
+
+    display:flex;
+
+    justify-content:center;
 }
 
 .hero-image img{
