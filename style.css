@@ -413,24 +413,23 @@ DESIGN SECTION
 
     position:relative;
 
-    max-width:1200px;
+    max-width:1400px;
 
     margin:auto;
 
-    min-height:900px;
+    min-height:700px;
 }
 
 .toothbrush-center{
 
     position:absolute;
 
-    left:42%;
+    left:62%;
 
-    top:50%;
+    top:42%;
 
     transform:translate(-50%,-50%);
 }
-
 .toothbrush-center img{
 
     height:950px;
@@ -471,23 +470,23 @@ DESIGN SECTION
 
 .feature-top{
 
-    top:100px;
+    top:80px;
 
-    left:40px;
+    left:180px;
 }
 
 .feature-middle{
 
-    top:420px;
+    top:270px;
 
-    left:0;
+    left:150px;
 }
 
 .feature-bottom{
 
-    top:700px;
+    top:470px;
 
-    left:40px;
+    left:180px;
 }
 
 .feature::after{
@@ -500,7 +499,7 @@ DESIGN SECTION
 
     top:50%;
 
-    width:180px;
+    width:160px;
 
     height:3px;
 
