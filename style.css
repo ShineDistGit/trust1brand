@@ -105,9 +105,11 @@ NAVBAR
 
     display:flex;
 
-    gap:35px;
+    gap:30px;
 
     list-style:none;
+
+    align-items:center;
 }
 
 .navbar a{
@@ -119,6 +121,8 @@ NAVBAR
     font-weight:600;
 
     font-size:18px;
+
+    padding:8px 0;
 
     transition:.3s;
 }
