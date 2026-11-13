@@ -417,16 +417,16 @@ DESIGN SECTION
 
     margin:auto;
 
-    min-height:700px;
+    min-height:1100px;
 }
 
 .toothbrush-center{
 
     position:absolute;
 
-    left:62%;
+    left:50%;
 
-    top:42%;
+    top:45%;
 
     transform:translate(-50%,-50%);
 }
@@ -470,23 +470,23 @@ DESIGN SECTION
 
 .feature-top{
 
-    top:80px;
+    top:120px;
 
-    left:180px;
+    left:120px;
 }
 
 .feature-middle{
 
-    top:270px;
+    top:350px;
 
-    left:150px;
+    left:120px;
 }
 
 .feature-bottom{
 
-    top:470px;
+    top:580px;
 
-    left:180px;
+    left:120px;
 }
 
 .feature::after{
