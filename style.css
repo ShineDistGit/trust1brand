@@ -471,23 +471,23 @@ DESIGN SECTION
 
 .feature-top{
 
-    top:50px;
+    top:100px;
 
-    left:50px;
+    left:40px;
 }
 
 .feature-middle{
 
-    top:340px;
+    top:420px;
 
     left:0;
 }
 
 .feature-bottom{
 
-    bottom:50px;
+    top:700px;
 
-    left:50px;
+    left:40px;
 }
 
 .feature::after{
