@@ -424,7 +424,7 @@ DESIGN SECTION
 
     position:absolute;
 
-    left:50%;
+    left:42%;
 
     top:50%;
 
@@ -496,11 +496,11 @@ DESIGN SECTION
 
     position:absolute;
 
-    right:-120px;
+    right:-200px;
 
     top:50%;
 
-    width:100px;
+    width:180px;
 
     height:3px;
 
@@ -518,7 +518,7 @@ DESIGN SECTION
 
     position:absolute;
 
-    right:-130px;
+    right:-210px;
 
     top:50%;
 
