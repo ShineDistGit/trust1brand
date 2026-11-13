@@ -512,6 +512,28 @@ DESIGN SECTION
     growLine 1.5s ease forwards;
 }
 
+.feature::before{
+
+    content:"";
+
+    position:absolute;
+
+    right:-130px;
+
+    top:50%;
+
+    width:14px;
+
+    height:14px;
+
+    border-radius:50%;
+
+    background:#d91b79;
+
+    transform:translateY(-50%);
+}
+
+
 /* ==========================
 MOUTHWASH
 ========================== */
