@@ -516,6 +516,30 @@ DESIGN SECTI*N
 
     line-height:1.7;
 }
+.left-column .feature-card:first-child{
+
+    animation:
+    cardFloat 6s ease-in-out infinite;
+}
+
+.left-column .feature-card:last-child{
+
+    animation:
+    cardFloat 7s ease-in-out infinite;
+}
+
+.right-column .feature-card:first-child{
+
+    animation:
+    cardFloat 8s ease-in-out infinite;
+}
+
+.right-column .feature-card:last-child{
+
+    animation:
+    cardFloat 9s ease-in-out infinite;
+}
+    
 /* ==========================
 MOUTHWASH
 ========================== */
