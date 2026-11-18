@@ -424,44 +424,54 @@ DESIGN SECTION
 
     position:absolute;
 
-    left:62%;
+    left:50%;
 
-    top:22%;
+    top:50%;
 
     transform:translate(-50%,-50%);
 }
 .toothbrush-center img{
 
-    height:950px;
+    height:700px;
 
     animation:
     floatHero 5s ease-in-out infinite;
 }
 
-.feature{
+.feature-card{
 
     position:absolute;
 
-    width:380px;
+    width:300px;
 
-    background:white;
+    background:
+    rgba(255,255,255,.75);
 
-    padding:25px;
+    backdrop-filter:blur(12px);
 
     border-radius:24px;
 
+    padding:25px;
+
     box-shadow:
     0 10px 30px rgba(0,0,0,.05);
+
+    transition:.3s;
 }
 
-.feature h3{
+.feature-card:hover{
+
+    transform:translateY(-8px);
+}
+
+.feature-card h3{
 
     color:#d91b79;
 
     margin-bottom:10px;
 }
 
-.feature p{
+.feature-card p{
 
     color:#666;
 
@@ -470,68 +480,35 @@ DESIGN SECTION
 
 .feature-top{
 
-    top:120px;
+    top:50px;
 
-    left:120px;
+    left:50%;
+
+    transform:translateX(-50%);
 }
 
-.feature-middle{
+.feature-left{
 
-    top:350px;
+    top:45%;
 
-    left:120px;
+    left:0;
+}
+
+.feature-right{
+
+    top:45%;
+
+    right:0;
 }
 
 .feature-bottom{
 
-    top:580px;
+    bottom:50px;
 
-    left:120px;
+    left:50%;
+
+    transform:translateX(-50%);
 }
-
-.feature::after{
-
-    content:"";
-
-    position:absolute;
-
-    right:-200px;
-
-    top:50%;
-
-    width:160px;
-
-    height:3px;
-
-    background:#d91b79;
-
-    transform:translateY(-50%);
-
-    animation:
-    growLine 1.5s ease forwards;
-}
-
-.feature::before{
-
-    content:"";
-
-    position:absolute;
-
-    right:-210px;
-
-    top:50%;
-
-    width:14px;
-
-    height:14px;
-
-    border-radius:50%;
-
-    background:#d91b79;
-
-    transform:translateY(-50%);
-}
-
 
 /* ==========================
 MOUTHWASH
