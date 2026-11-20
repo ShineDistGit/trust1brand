@@ -400,109 +400,104 @@ TOOTHBRUSH SECTION
     margin-top:12px;
 }
 
-/* ====*=====================
-DESIGN SECTI*N
+/* ==========================
+DESIGN SECTION
 ========================== */
 
-.*esign-section{
+.design-section{
 
-    background:#f8*9fb;
-
-    overflow:hidden;
+    background:#f8f9fb;
 }
 
-.too*hbrush-features{
+.toothbrush-features{
 
-    display:grid*
+    display:grid;
 
-    grid-template-columns:
-    1*r auto 1fr;
+    grid-template-columns:1fr auto 1fr;
 
-    align-items:cente*;
+    align-items:center;
 
     gap:80px;
 
-    max-width:14*0px;
+    max-width:1400px;
 
     margin:auto;
 }
 
-.feature*column{
+.feature-column{
 
     display:flex;
 
-    fl*x-direction:column;
+    flex-direction:column;
 
-    gap:40px;*}
+    gap:40px;
+}
 
 .left-column{
 
-    align-items:*lex-end;
+    align-items:flex-end;
 }
 
 .right-column{
 
-    al*gn-items:flex-start;
+    align-items:flex-start;
 }
 
-.toothbrus*-center{
+.toothbrush-center{
 
     display:flex;
 
-    j*stify-content:center;
+    justify-content:center;
 }
 
-.toothbru*h-center img{
+.toothbrush-center img{
 
-    height:750px;
+    height:700px;
 
-*   filter:
+    filter:
     drop-shadow(
-    0 * 40px
+    0 0 40px
     rgba(217,27,121,.20)
-   *);
+    );
 
     animation:
-    floatHero 5* ease-in-out infinite;
+    floatHero 5s ease-in-out infinite;
 }
 
-.feature*card{
+.feature-card{
 
     width:320px;
 
-    backg*ound:
-    rgba(255,255,255,.80);
+    background:rgba(255,255,255,.8);
 
-*   backdrop-filter:blur(12px);
+    backdrop-filter:blur(12px);
 
-  * border-radius:24px;
+    border-radius:24px;
 
-    padding:*5px;
+    padding:25px;
 
     box-shadow:
-    0 15px 3*px rgba(0,0,0,.08);
+    0 15px 35px rgba(0,0,0,.08);
 
-    transitio*:.3s;
+    transition:.3s;
 }
 
 .feature-card:hover{
 
-   *transform:
-    translateY(-12px)
- *  scale(1.03);
+    transform:
+    translateY(-10px);
 
     box-shadow:
-  * 0 20px 45px
-    rgba(0,0,0,.12);
-*
+    0 20px 45px rgba(0,0,0,.12);
+}
 
 .feature-card h3{
 
     color:#d91b79;
 
-    margin-bottom:12px;
-
     font-size:24px;
+
+    margin-bottom:12px;
 }
 
 .feature-card h3 i{
@@ -515,29 +510,6 @@ DESIGN SECTI*N
     color:#666;
 
     line-height:1.7;
-}
-.left-column .feature-card:first-child{
-
-    animation:
-    cardFloat 6s ease-in-out infinite;
-}
-
-.left-column .feature-card:last-child{
-
-    animation:
-    cardFloat 7s ease-in-out infinite;
-}
-
-.right-column .feature-card:first-child{
-
-    animation:
-    cardFloat 8s ease-in-out infinite;
-}
-
-.right-column .feature-card:last-child{
-
-    animation:
-    cardFloat 9s ease-in-out infinite;
 }
     
 /* ==========================
